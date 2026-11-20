@@ -13,7 +13,6 @@ class ATM {
     func deposit() {
         print("Enter deposit amount: ")
         let amount = Double(readLine() ?? "") ?? 0
-
         if amount > 0 {
             balance += amount
             print("₹\(amount) deposited successfully.")
