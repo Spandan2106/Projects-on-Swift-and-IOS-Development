@@ -39,7 +39,6 @@ class ATM {
 }
 
 let atm = ATM(balance: 10000)
-
 while true {
     print("""
 
@@ -49,7 +48,7 @@ while true {
     3. Withdraw Money
     4. Exit
     """)
-
+    
     print("Enter choice: ")
     let choice = Int(readLine() ?? "") ?? 0
 
