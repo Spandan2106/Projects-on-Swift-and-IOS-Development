@@ -24,7 +24,6 @@ class ATM {
     func withdraw() {
         print("Enter withdrawal amount: ")
         let amount = Double(readLine() ?? "") ?? 0
-
         if amount <= 0 {
             print("Invalid amount.")
         } else if amount > balance {
