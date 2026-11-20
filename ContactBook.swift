@@ -59,7 +59,6 @@ class ContactBook {
         let phone = readLine() ?? ""
         print("Enter new email: ")
         let email = readLine() ?? ""
-
         contacts[index].phone = phone
         contacts[index].email = email
 
