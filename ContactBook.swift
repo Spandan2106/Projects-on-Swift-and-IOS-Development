@@ -35,7 +35,6 @@ class ContactBook {
         let found = contacts.filter {
             $0.name.lowercased().contains(name.lowercased())
         }
-
         if found.isEmpty {
             print("Contact not found.")
         } else {
