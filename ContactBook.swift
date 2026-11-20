@@ -61,7 +61,6 @@ class ContactBook {
         let email = readLine() ?? ""
         contacts[index].phone = phone
         contacts[index].email = email
-
         print("Contact updated successfully!")
     }
 
