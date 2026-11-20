@@ -18,7 +18,6 @@ class ContactBook {
         contacts.append(Contact(name: name, phone: phone, email: email))
         print("Contact added successfully!")
     }
-
     func displayContacts() {
         if contacts.isEmpty {
             print("No contacts available.")
