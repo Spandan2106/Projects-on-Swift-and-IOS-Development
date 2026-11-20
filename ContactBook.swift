@@ -8,7 +8,6 @@ struct Contact {
 
 class ContactBook {
     var contacts: [Contact] = []
-
     func addContact() {
         print("Enter name: ")
         let name = readLine() ?? ""
