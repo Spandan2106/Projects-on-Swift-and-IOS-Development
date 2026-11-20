@@ -15,7 +15,6 @@ class ContactBook {
         let phone = readLine() ?? ""
         print("Enter email: ")
         let email = readLine() ?? ""
-
         contacts.append(Contact(name: name, phone: phone, email: email))
         print("Contact added successfully!")
     }
