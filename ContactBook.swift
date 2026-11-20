@@ -32,7 +32,6 @@ class ContactBook {
     func searchContact() {
         print("Enter name to search: ")
         let name = readLine() ?? ""
-
         let found = contacts.filter {
             $0.name.lowercased().contains(name.lowercased())
         }
