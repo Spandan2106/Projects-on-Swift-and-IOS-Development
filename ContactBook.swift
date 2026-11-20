@@ -57,7 +57,6 @@ class ContactBook {
         }
         print("Enter new phone number: ")
         let phone = readLine() ?? ""
-
         print("Enter new email: ")
         let email = readLine() ?? ""
 
