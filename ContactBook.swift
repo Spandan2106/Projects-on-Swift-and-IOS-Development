@@ -13,7 +13,6 @@ class ContactBook {
         let name = readLine() ?? ""
         print("Enter phone number: ")
         let phone = readLine() ?? ""
-
         print("Enter email: ")
         let email = readLine() ?? ""
 
