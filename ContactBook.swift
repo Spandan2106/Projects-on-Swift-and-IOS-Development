@@ -24,7 +24,6 @@ class ContactBook {
             print("No contacts available.")
             return
         }
-
         print("\n--- Contact List ---")
         for contact in contacts {
             print("Name: \(contact.name) | Phone: \(contact.phone) | Email: \(contact.email)")
