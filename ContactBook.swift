@@ -11,7 +11,6 @@ class ContactBook {
     func addContact() {
         print("Enter name: ")
         let name = readLine() ?? ""
-
         print("Enter phone number: ")
         let phone = readLine() ?? ""
 
