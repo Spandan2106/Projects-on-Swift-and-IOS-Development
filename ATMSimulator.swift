@@ -2,7 +2,6 @@ import Foundation
 
 class ATM {
     private var balance: Double
-
     init(balance: Double) {
         self.balance = balance
     }
