@@ -55,7 +55,6 @@ class ContactBook {
             print("Contact not found.")
             return
         }
-
         print("Enter new phone number: ")
         let phone = readLine() ?? ""
 
