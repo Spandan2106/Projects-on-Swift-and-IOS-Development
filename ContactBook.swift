@@ -49,7 +49,6 @@ class ContactBook {
     func updateContact() {
         print("Enter name of contact to update: ")
         let name = readLine() ?? ""
-
         guard let index = contacts.firstIndex(where: {
             $0.name.lowercased() == name.lowercased()
         }) else {
