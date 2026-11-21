@@ -41,7 +41,6 @@ class StudentManager {
         var marks: [Double] = []
         for i in 1...5 {
             print("Enter marks for subject \(i):")
-
             guard let mark = Double(readLine() ?? ""),
                   (0...100).contains(mark) else {
                 print("Invalid marks.")
