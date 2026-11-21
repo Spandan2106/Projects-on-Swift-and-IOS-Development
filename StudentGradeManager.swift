@@ -61,7 +61,6 @@ class StudentManager {
             print("No students available.")
             return
         }
-
         for student in students {
             print("\nName: \(student.name)")
             print("Roll Number: \(student.rollNumber)")
