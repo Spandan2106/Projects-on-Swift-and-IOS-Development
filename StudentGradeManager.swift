@@ -113,7 +113,6 @@ while true {
     case "4":
         print("Exiting...")
         exit(0)
-
     default:
         print("Invalid choice.")
     }
