@@ -102,7 +102,6 @@ while true {
     switch readLine() {
     case "1":
         manager.addStudent()
-
     case "2":
         manager.displayStudents()
 
