@@ -114,7 +114,6 @@ while true {
     default:
         print("Invalid choice.")
     }
-
     if choice == 6 {
         break
     }
