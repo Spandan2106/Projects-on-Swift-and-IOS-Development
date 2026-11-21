@@ -34,7 +34,6 @@ class StudentManager {
             print("Invalid roll number.")
             return
         }
-
         if students.contains(where: { $0.rollNumber == roll }) {
             print("Roll number already exists.")
             return
