@@ -53,7 +53,6 @@ class StudentManager {
             rollNumber: roll,
             marks: marks
         )
-
         students.append(student)
         print("Student added successfully.")
     }
