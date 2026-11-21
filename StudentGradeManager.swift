@@ -106,7 +106,6 @@ while true {
         manager.displayStudents()
     case "3":
         manager.searchStudent()
-
     case "4":
         print("Exiting...")
         exit(0)
