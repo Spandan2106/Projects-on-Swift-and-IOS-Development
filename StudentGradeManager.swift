@@ -23,7 +23,6 @@ struct Student {
 }
 class StudentManager {
     private var students: [Student] = []
-
     func addStudent() {
         print("Enter student name:")
         guard let name = readLine(), !name.isEmpty else {
