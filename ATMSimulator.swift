@@ -5,7 +5,6 @@ class ATM {
     init(balance: Double) {
         self.balance = balance
     }
-
     func checkBalance() {
         print("Current Balance: ₹\(balance)")
     }
