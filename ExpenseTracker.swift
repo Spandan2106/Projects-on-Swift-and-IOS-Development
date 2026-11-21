@@ -34,7 +34,6 @@ class ExpenseTracker {
     func searchByCategory() {
         print("Enter category to search: ")
         let category = readLine() ?? ""
-
         let filtered = expenses.filter {
             $0.category.lowercased() == category.lowercased()
         }
