@@ -8,7 +8,6 @@ struct Book {
 }
 class Library {
     private var books: [Book] = []
-
     func addBook() {
         print("Enter book ID:")
         let id = Int(readLine() ?? "") ?? 0
