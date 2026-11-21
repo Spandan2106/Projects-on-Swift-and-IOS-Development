@@ -56,7 +56,6 @@ class StudentManager {
         students.append(student)
         print("Student added successfully.")
     }
-
     func displayStudents() {
         if students.isEmpty {
             print("No students available.")
