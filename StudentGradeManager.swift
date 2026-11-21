@@ -4,7 +4,6 @@ struct Student {
     var name: String
     var rollNumber: Int
     var marks: [Double]
-
     var total: Double {
         marks.reduce(0, +)
     }
