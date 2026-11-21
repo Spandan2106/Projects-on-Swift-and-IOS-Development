@@ -11,7 +11,6 @@ class Library {
     func addBook() {
         print("Enter book ID:")
         let id = Int(readLine() ?? "") ?? 0
-
         if books.contains(where: { $0.id == id }) {
             print("Book ID already exists.")
             return
