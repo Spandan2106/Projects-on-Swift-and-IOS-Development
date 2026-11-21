@@ -14,7 +14,6 @@ class ExpenseTracker {
         let amount = Double(readLine() ?? "") ?? 0
         print("Enter category: ")
         let category = readLine() ?? ""
-
         expenses.append(Expense(title: title, amount: amount, category: category))
         print("Expense added successfully!")
     }
