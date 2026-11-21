@@ -73,7 +73,6 @@ class ContactBook {
             print("Contact not found.")
             return
         }
-
         contacts.remove(at: index)
         print("Contact deleted successfully!")
     }
