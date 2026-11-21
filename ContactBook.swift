@@ -74,7 +74,6 @@ class ContactBook {
         print("Contact deleted successfully!")
     }
 }
-
 let book = ContactBook()
 
 while true {
