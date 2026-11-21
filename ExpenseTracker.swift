@@ -12,7 +12,6 @@ class ExpenseTracker {
         let title = readLine() ?? ""
         print("Enter amount: ")
         let amount = Double(readLine() ?? "") ?? 0
-
         print("Enter category: ")
         let category = readLine() ?? ""
 
