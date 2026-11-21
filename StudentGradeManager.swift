@@ -104,7 +104,6 @@ while true {
         manager.addStudent()
     case "2":
         manager.displayStudents()
-
     case "3":
         manager.searchStudent()
 
