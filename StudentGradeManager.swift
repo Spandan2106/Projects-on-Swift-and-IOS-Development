@@ -71,7 +71,6 @@ class StudentManager {
     }
     func searchStudent() {
         print("Enter roll number:")
-
         guard let roll = Int(readLine() ?? "") else {
             print("Invalid roll number.")
             return
