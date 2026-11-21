@@ -7,7 +7,6 @@ struct Expense {
 }
 class ExpenseTracker {
     var expenses: [Expense] = []
-
     func addExpense() {
         print("Enter expense title: ")
         let title = readLine() ?? ""
