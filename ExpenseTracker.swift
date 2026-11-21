@@ -27,7 +27,6 @@ class ExpenseTracker {
             print("Title: \(expense.title) | Amount: ₹\(expense.amount) | Category: \(expense.category)")
         }
     }
-
     func showTotal() {
         let total = expenses.reduce(0) { $0 + $1.amount }
         print("Total Expenses: ₹\(total)")
