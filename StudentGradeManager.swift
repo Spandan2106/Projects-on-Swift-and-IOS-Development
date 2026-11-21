@@ -29,7 +29,6 @@ class StudentManager {
             print("Invalid name.")
             return
         }
-
         print("Enter roll number:")
         guard let roll = Int(readLine() ?? "") else {
             print("Invalid roll number.")
