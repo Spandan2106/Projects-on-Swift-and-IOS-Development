@@ -69,7 +69,6 @@ class StudentManager {
             print("Grade: \(student.grade)")
         }
     }
-
     func searchStudent() {
         print("Enter roll number:")
 
