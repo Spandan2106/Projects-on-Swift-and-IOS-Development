@@ -39,7 +39,6 @@ class StudentManager {
             return
         }
         var marks: [Double] = []
-
         for i in 1...5 {
             print("Enter marks for subject \(i):")
 
