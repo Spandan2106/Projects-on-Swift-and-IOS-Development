@@ -99,7 +99,6 @@ while true {
     """)
 
     print("Enter choice:")
-
     switch readLine() {
     case "1":
         manager.addStudent()
