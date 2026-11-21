@@ -97,7 +97,6 @@ while true {
     3. Search Student
     4. Exit
     """)
-
     print("Enter choice:")
     switch readLine() {
     case "1":
