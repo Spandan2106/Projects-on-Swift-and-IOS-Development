@@ -38,7 +38,6 @@ class ExpenseTracker {
         let filtered = expenses.filter {
             $0.category.lowercased() == category.lowercased()
         }
-
         if filtered.isEmpty {
             print("No expenses found in this category.")
         } else {
