@@ -58,7 +58,6 @@ while true {
     4. Search by Category
     5. Exit
     """)
-
     print("Enter choice: ")
     let choice = Int(readLine() ?? "") ?? 0
 
