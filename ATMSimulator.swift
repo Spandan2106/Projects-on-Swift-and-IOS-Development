@@ -18,7 +18,6 @@ class ATM {
             print("Invalid deposit amount.")
         }
     }
-
     func withdraw() {
         print("Enter withdrawal amount: ")
         let amount = Double(readLine() ?? "") ?? 0
