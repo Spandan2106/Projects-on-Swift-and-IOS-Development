@@ -21,7 +21,6 @@ struct Student {
         }
     }
 }
-
 class StudentManager {
     private var students: [Student] = []
 
