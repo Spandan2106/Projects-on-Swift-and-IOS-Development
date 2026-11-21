@@ -31,7 +31,6 @@ class ExpenseTracker {
         let total = expenses.reduce(0) { $0 + $1.amount }
         print("Total Expenses: ₹\(total)")
     }
-
     func searchByCategory() {
         print("Enter category to search: ")
         let category = readLine() ?? ""
