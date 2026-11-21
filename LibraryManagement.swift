@@ -15,7 +15,6 @@ class Library {
             print("Book ID already exists.")
             return
         }
-
         print("Enter title:")
         let title = readLine() ?? ""
 
