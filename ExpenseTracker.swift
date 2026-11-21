@@ -10,7 +10,6 @@ class ExpenseTracker {
     func addExpense() {
         print("Enter expense title: ")
         let title = readLine() ?? ""
-
         print("Enter amount: ")
         let amount = Double(readLine() ?? "") ?? 0
 
