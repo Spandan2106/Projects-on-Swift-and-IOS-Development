@@ -48,7 +48,6 @@ class StudentManager {
             }
             marks.append(mark)
         }
-
         let student = Student(
             name: name,
             rollNumber: roll,
