@@ -48,7 +48,6 @@ class StudentManager {
                 print("Invalid marks.")
                 return
             }
-
             marks.append(mark)
         }
 
