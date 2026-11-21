@@ -86,7 +86,6 @@ class StudentManager {
         }
     }
 }
-
 let manager = StudentManager()
 
 while true {
