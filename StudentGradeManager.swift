@@ -38,7 +38,6 @@ class StudentManager {
             print("Roll number already exists.")
             return
         }
-
         var marks: [Double] = []
 
         for i in 1...5 {
