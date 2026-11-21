@@ -48,7 +48,6 @@ class ExpenseTracker {
         }
     }
 }
-
 let tracker = ExpenseTracker()
 
 while true {
