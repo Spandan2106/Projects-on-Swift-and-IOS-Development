@@ -8,7 +8,6 @@ class ATM {
     func checkBalance() {
         print("Current Balance: ₹\(balance)")
     }
-
     func deposit() {
         print("Enter deposit amount: ")
         let amount = Double(readLine() ?? "") ?? 0
