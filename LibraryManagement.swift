@@ -19,31 +19,25 @@ class Library {
         let title = readLine() ?? ""
         print("Enter author:")
         let author = readLine() ?? ""
-
         books.append(Book(id: id, title: title, author: author, isAvailable: true))
         print("Book added successfully.")
     }
-
     func displayBooks() {
         if books.isEmpty {
             print("No books available.")
             return
         }
-
         for book in books {
             let status = book.isAvailable ? "Available" : "Borrowed"
             print("ID: \(book.id) | Title: \(book.title) | Author: \(book.author) | Status: \(status)")
         }
     }
-
     func searchBook() {
         print("Enter book title:")
         let title = readLine() ?? ""
-
         let result = books.filter {
             $0.title.lowercased().contains(title.lowercased())
         }
-
         if result.isEmpty {
             print("Book not found.")
         } else {
@@ -52,16 +46,13 @@ class Library {
             }
         }
     }
-
     func borrowBook() {
         print("Enter book ID:")
         let id = Int(readLine() ?? "") ?? 0
-
         guard let index = books.firstIndex(where: { $0.id == id }) else {
             print("Book not found.")
             return
         }
-
         if books[index].isAvailable {
             books[index].isAvailable = false
             print("Book borrowed successfully.")
@@ -69,16 +60,13 @@ class Library {
             print("Book is already borrowed.")
         }
     }
-
     func returnBook() {
         print("Enter book ID:")
         let id = Int(readLine() ?? "") ?? 0
-
         guard let index = books.firstIndex(where: { $0.id == id }) else {
             print("Book not found.")
             return
         }
-
         if !books[index].isAvailable {
             books[index].isAvailable = true
             print("Book returned successfully.")
@@ -87,12 +75,9 @@ class Library {
         }
     }
 }
-
 let library = Library()
-
 while true {
     print("""
-
     ===== LIBRARY MANAGEMENT =====
     1. Add Book
     2. Display Books
@@ -101,10 +86,8 @@ while true {
     5. Return Book
     6. Exit
     """)
-
     print("Enter choice:")
     let choice = Int(readLine() ?? "") ?? 0
-
     switch choice {
     case 1:
         library.addBook()
