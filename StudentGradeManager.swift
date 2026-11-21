@@ -7,7 +7,6 @@ struct Student {
     var total: Double {
         marks.reduce(0, +)
     }
-
     var percentage: Double {
         total / Double(marks.count)
     }
