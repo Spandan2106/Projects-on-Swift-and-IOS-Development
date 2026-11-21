@@ -10,7 +10,6 @@ struct Student {
     var percentage: Double {
         total / Double(marks.count)
     }
-
     var grade: String {
         switch percentage {
         case 90...: return "A+"
