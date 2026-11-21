@@ -6,7 +6,6 @@ struct Book {
     var author: String
     var isAvailable: Bool
 }
-
 class Library {
     private var books: [Book] = []
 
