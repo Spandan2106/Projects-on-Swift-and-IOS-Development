@@ -27,7 +27,6 @@ class ContactBook {
             print("Name: \(contact.name) | Phone: \(contact.phone) | Email: \(contact.email)")
         }
     }
-
     func searchContact() {
         print("Enter name to search: ")
         let name = readLine() ?? ""
