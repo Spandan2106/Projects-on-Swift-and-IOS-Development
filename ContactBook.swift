@@ -60,7 +60,6 @@ class ContactBook {
         contacts[index].email = email
         print("Contact updated successfully!")
     }
-
     func deleteContact() {
         print("Enter name to delete: ")
         let name = readLine() ?? ""
