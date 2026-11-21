@@ -5,7 +5,6 @@ struct Expense {
     var amount: Double
     var category: String
 }
-
 class ExpenseTracker {
     var expenses: [Expense] = []
 
