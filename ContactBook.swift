@@ -43,7 +43,6 @@ class ContactBook {
             }
         }
     }
-
     func updateContact() {
         print("Enter name of contact to update: ")
         let name = readLine() ?? ""
