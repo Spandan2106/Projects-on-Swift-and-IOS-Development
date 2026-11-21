@@ -5,7 +5,6 @@ struct Contact {
     var phone: String
     var email: String
 }
-
 class ContactBook {
     var contacts: [Contact] = []
     func addContact() {
