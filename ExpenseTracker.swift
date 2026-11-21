@@ -17,7 +17,6 @@ class ExpenseTracker {
         expenses.append(Expense(title: title, amount: amount, category: category))
         print("Expense added successfully!")
     }
-
     func displayExpenses() {
         if expenses.isEmpty {
             print("No expenses recorded.")
