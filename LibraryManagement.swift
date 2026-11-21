@@ -17,7 +17,6 @@ class Library {
         }
         print("Enter title:")
         let title = readLine() ?? ""
-
         print("Enter author:")
         let author = readLine() ?? ""
 
