@@ -76,7 +76,6 @@ class StudentManager {
             print("Invalid roll number.")
             return
         }
-
         if let student = students.first(where: {
             $0.rollNumber == roll
         }) {
