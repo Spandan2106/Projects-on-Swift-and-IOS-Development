@@ -22,7 +22,6 @@ class ExpenseTracker {
             print("No expenses recorded.")
             return
         }
-
         print("\n--- Expense List ---")
         for expense in expenses {
             print("Title: \(expense.title) | Amount: ₹\(expense.amount) | Category: \(expense.category)")
