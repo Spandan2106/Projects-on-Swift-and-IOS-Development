@@ -1,5 +1,4 @@
 import Foundation
-
 struct Passenger {
     let bookingID: String
     let name: String
