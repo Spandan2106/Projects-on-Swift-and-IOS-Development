@@ -58,8 +58,7 @@ class ParkingLot {
         
         totalRevenue += ticket.totalFee
         print("Vehicle [\(ticket.plateNumber)] exited Slot #\(slotNumber). Fee Collected: $\(String(format: "%.2f", ticket.totalFee))")
-    }
-    
+    }  
     func displayStatus() {
         print("\n--- Parking Lot Status (\(occupiedSlots.count)/\(totalSlots) Occupied) ---")
         for slot in 1...totalSlots {
