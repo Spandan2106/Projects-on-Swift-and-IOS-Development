@@ -6,6 +6,7 @@ struct Passenger {
     let ticketPrice: Double
 }
 
+
 class Flight {
     let flightNumber: String
     let destination: String
