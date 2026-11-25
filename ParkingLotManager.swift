@@ -12,7 +12,6 @@ enum VehicleType: String {
         }
     }
 }
-
 struct ParkingTicket {
     let ticketID: String
     let plateNumber: String
