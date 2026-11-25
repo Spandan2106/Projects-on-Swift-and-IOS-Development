@@ -22,7 +22,6 @@ struct ParkingTicket {
         return Double(hoursParked) * vehicleType.hourlyRate
     }
 }
-
 class ParkingLot {
     private let totalSlots: Int
     private var occupiedSlots: [Int: ParkingTicket] = [:]
