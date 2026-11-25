@@ -4,7 +4,6 @@ enum VehicleType: String {
     case bike = "Bike"
     case car = "Car"
     case truck = "Truck"
-    
     var hourlyRate: Double {
         switch self {
         case .bike: return 20.0
