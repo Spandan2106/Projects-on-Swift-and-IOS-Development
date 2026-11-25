@@ -12,7 +12,6 @@ class Flight {
     let destination: String
     private var availableSeats: Set<String>
     private var bookings: [String: Passenger] = [:]
-    
     init(flightNumber: String, destination: String, seats: [String]) {
         self.flightNumber = flightNumber
         self.destination = destination
