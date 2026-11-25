@@ -49,8 +49,7 @@ class ParkingLot {
         } else {
             print("Parking Lot Full: No slots available for \(plateNumber).")
         }
-    }
-    
+    } 
     func exitVehicle(slotNumber: Int) {
         guard let ticket = occupiedSlots.removeValue(forKey: slotNumber) else {
             print("Error: Slot #\(slotNumber) is already empty or invalid.")
