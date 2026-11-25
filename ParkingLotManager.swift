@@ -72,9 +72,7 @@ class ParkingLot {
         }
         print("Total Revenue Collected: $\(String(format: "%.2f", totalRevenue))\n")
     }
-}
-
-// Example Usage
+}// Example Usage
 let lot = ParkingLot(totalSlots: 3)
 lot.parkVehicle(plateNumber: "WB02AB1234", type: .car, hours: 3)
 lot.parkVehicle(plateNumber: "WB06CD5678", type: .bike, hours: 2)
