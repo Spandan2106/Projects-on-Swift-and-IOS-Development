@@ -1,5 +1,4 @@
 import Foundation
-
 enum VehicleType: String {
     case bike = "Bike"
     case car = "Car"
