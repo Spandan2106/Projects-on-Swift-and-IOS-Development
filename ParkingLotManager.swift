@@ -25,12 +25,10 @@ struct ParkingTicket {
 class ParkingLot {
     private let totalSlots: Int
     private var occupiedSlots: [Int: ParkingTicket] = [:]
-    private var totalRevenue: Double = 0.0
-    
+    private var totalRevenue: Double = 0.0 
     init(totalSlots: Int) {
         self.totalSlots = totalSlots
-    }
-    
+    }  
     func parkVehicle(plateNumber: String, type: VehicleType, hours: Int) {
         guard hours > 0 else {
             print("Error: Parking duration must be at least 1 hour.")
